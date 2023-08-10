@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-IMG = cv2.imread('Spiderman.jpg')
+IMG = cv2.imread('i5.jpg')
 cv2.imshow('Imagen', IMG)
 IMG = cv2.cvtColor(IMG, cv2.COLOR_BGR2RGB)
 

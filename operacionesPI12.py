@@ -14,7 +14,7 @@ def apply_sepia_filter(image):
     return sepia_image
 
 # Cargar la imagen
-imagen = cv2.imread('Spiderman.jpg')
+imagen = cv2.imread('i11.jpg')
 
 # Aplicar el filtro de sepia
 imagen_sepia = apply_sepia_filter(imagen)

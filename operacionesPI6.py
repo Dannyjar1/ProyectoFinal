@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Lee la imagen
-image = cv2.imread('bod.jpg')
+image = cv2.imread('i6.jpg')
 if image is None:
     print('No se pudo cargar la imagen.')
     exit()

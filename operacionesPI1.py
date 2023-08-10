@@ -14,7 +14,7 @@ def colorize_filter(image, color):
     return colorized_image
 
 # Cargar la imagen
-imagen = cv2.imread('Spiderman.jpg')
+imagen = cv2.imread('i1.jpg')
 cv2.imshow('Imagen Origal',imagen)
 
 # Colores a aplicar (en formato BGR)

@@ -14,7 +14,7 @@ def night_filter(image):
     return cold_image
 
 # Cargar la imagen
-image = cv2.imread('fiesta.jpg')
+image = cv2.imread('i15.jpg')
 
 # Aplicar el filtro nocturno
 filtered_image = night_filter(image)

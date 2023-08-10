@@ -1,7 +1,7 @@
 import cv2
 
 # Cargar la imagen
-imagen = cv2.imread('Spiderman.jpg')
+imagen = cv2.imread('i12.jpg')
 
 # Convertir la imagen a escala de grises
 imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)

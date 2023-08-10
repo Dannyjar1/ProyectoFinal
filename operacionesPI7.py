@@ -16,7 +16,7 @@ def lark_filter(image):
     return image_filtered
 
 # Load the image
-image = cv2.imread('fiesta.jpg')
+image = cv2.imread('i7.jpg')
 
 # Apply the Lark filter
 filtered_image = lark_filter(image)

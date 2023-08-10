@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 
 
-image = cv2.imread('Spiderman.jpg')
+image = cv2.imread('i3.jpg')
 if image is None:
     print('No se pudo cargar la imagen.')
     exit()

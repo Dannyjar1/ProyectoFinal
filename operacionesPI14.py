@@ -17,7 +17,7 @@ def apply_watercolor_effect(image, kernel_size=5, strength=0.5):
     return imagen_acuarela
 
 # Cargar la imagen
-imagen = cv2.imread('Spiderman.jpg')
+imagen = cv2.imread('I14.jpg')
 
 # Aplicar el filtro de efecto acuarela
 imagen_acuarela = apply_watercolor_effect(imagen)

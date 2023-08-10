@@ -15,7 +15,7 @@ def moon_filter(image):
     return image_filtered
 
 # Load the image
-image = cv2.imread('fiesta.jpg')
+image = cv2.imread('i8.jpg')
 
 # Apply the Moon filter
 filtered_image = moon_filter(image)

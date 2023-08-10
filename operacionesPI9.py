@@ -15,7 +15,7 @@ def sierra_filter(image):
     return image_filtered
 
 # Load the image
-image = cv2.imread('fiesta.jpg')
+image = cv2.imread('i9.jpg')
 
 # Apply the Sierra filter
 filtered_image = sierra_filter(image)

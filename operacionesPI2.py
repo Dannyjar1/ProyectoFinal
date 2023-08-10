@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-imagen = cv2.imread('klk.jpg')
+imagen = cv2.imread('i2.jpg')
 if imagen is None:
     print('No se pudo cargar la imagen.')
     exit()

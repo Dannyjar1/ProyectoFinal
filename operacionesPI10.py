@@ -23,7 +23,7 @@ def ginza_filter(image):
     return image_vignette
 
 # Load the image
-image = cv2.imread('Spiderman.jpg')
+image = cv2.imread('i10.jpg')
 
 # Apply the Ginza filter
 filtered_image = ginza_filter(image)
